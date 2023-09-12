@@ -1,8 +1,6 @@
-import Esercizi.Esercizio1;
-import Esercizi.Esercizio2;
-import Esercizi.Esercizio3;
-import Esercizi.Esercizio4;
+import Esercizi.*;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -22,10 +20,14 @@ public class Main {
 //        int n = input.nextInt();
 //        System.out.println("Il fattoriale del numero " + n + " è " + Esercizio3.fattoriale_ricorsivo(n));
 
-        System.out.println("Inserisci un numero di secondi");
-        int n = input.nextInt();
-        System.out.println(Esercizio4.numeroSecondi(n));
-        System.out.println("ciao");
+//        System.out.println("Inserisci un numero di secondi");
+//        int n = input.nextInt();
+//        System.out.println(Esercizio4.numeroSecondi(n));
+//        System.out.println("ciao");
+
+        int[] array = {5, 2, 12, 11, 5, 9, 23, 4};
+        int[] copia = Esercizio6.doubluOdd(array);
+        System.out.println(Arrays.toString(copia));
 
         }
     }
