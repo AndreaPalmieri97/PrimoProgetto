@@ -25,6 +25,7 @@ public class Main {
         System.out.println("Inserisci un numero di secondi");
         int n = input.nextInt();
         System.out.println(Esercizio4.numeroSecondi(n));
+        System.out.println("ciao");
 
         }
     }
