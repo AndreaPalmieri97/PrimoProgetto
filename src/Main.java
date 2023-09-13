@@ -25,9 +25,22 @@ public class Main {
 //        System.out.println(Esercizio4.numeroSecondi(n));
 //        System.out.println("ciao");
 
-        int[] array = {5, 2, 12, 11, 5, 9, 23, 4};
-        int[] copia = Esercizio6.doubluOdd(array);
-        System.out.println(Arrays.toString(copia));
+//        int[] array = {5, 2, 12, 11, 5, 9, 23, 4};
+//        int[] copia = Esercizio6.doubluOdd(array);
+//        System.out.println(Arrays.toString(copia));
 
-        }
+//        Esercizio5.indovinaStringa();
+
+//        System.out.println("Inserisci il primo intero: ");
+//        int n= input.nextInt();
+//        System.out.println("Inserisci il secondo intero: ");
+//        int m= input.nextInt();
+//
+//        Esercizio7.creaArray(n,m);
+
+        System.out.println("Inserisci l'ennesimo elemento di Fibonacci da visualizzare : ");
+        int nFibonacci= input.nextInt();
+        int risultatoFibonacci= Esercizio8.metodoFibonacci(nFibonacci);
+        System.out.println("l'elemento corrispondente all'indice n° "+nFibonacci+ " è : "+ risultatoFibonacci);
     }
+}
