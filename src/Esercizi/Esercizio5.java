@@ -19,10 +19,7 @@ public class Esercizio5 {
         for(int i=0; i<n ; i++){
             System.out.println("Inserisci la stringa n°"+ (i+1) +" da confrontare: ");
             String checkStringa = scanner.nextLine();
-            if(checkStringa.startsWith(stringaVerifica)){
-                System.out.println("true");
-            }
-            else System.out.println("false");
+            System.out.println(checkStringa.startsWith(stringaVerifica));
         }
     }
 }

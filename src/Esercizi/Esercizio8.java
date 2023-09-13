@@ -19,7 +19,6 @@ public class Esercizio8 {
 
         for(int i=2 ; i<=n ; i++){
             fibonacci3=fibonacci1+fibonacci2;
-
             fibonacci1=fibonacci2;
             fibonacci2=fibonacci3;
         }
